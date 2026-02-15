@@ -1,0 +1,202 @@
+./gradlew : WARNING: 
+A restricted method 
+in java.lang.System 
+has been called
+At line:1 char:1
++ ./gradlew 
+assembleDebug > 
+build_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A rest...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: java.lang.Sy
+stem::load has been 
+called by net.rubygra
+pefruit.platform.inte
+rnal.NativeLibraryLoa
+der in an unnamed 
+module (file:/C:/User
+s/abhis/.gradle/wrapp
+er/dists/gradle-9.0-m
+ilestone-1-bin/3vdepk
+4s12bybhohyuvjcm1bd/g
+radle-9.0-milestone-1
+/lib/native-platform-
+0.22-milestone-28.jar
+)
+WARNING: Use --enable
+-native-access=ALL-UN
+NAMED to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:175:55 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:175:66 Parameter 'txt' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:218:54 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:218:65 Parameter 'txt' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:266:20 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:266:31 Parameter 'txt' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:318:5 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:371:27 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:425:37 Parameter 'bg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/ControllerShared.kt:425:48 Parameter 'stroke' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:706:5 Parameter 'onToggleTheme' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:708:5 Parameter 'onOpenProfiles' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:711:5 Parameter 'onOpenKeyboard' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:712:5 Parameter 'onAddButton' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:725:9 Variable 'currentGyroPitch' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:813:9 Variable 'bgColor' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:836:66 'VIBRATOR_SERVICE: String' is deprecated. Deprecated in Java
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1078:33 Name shadowed: w
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1079:33 Name shadowed: h
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1081:33 Variable 'thinStroke' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1175:37 Variable 'down' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1374:124 Parameter 'v' is never used, could be renamed to _
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1613:29 Variable 'scanner' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/MainActivity.kt:1695:41 Parameter 'icon' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:39:25 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:98:48 Unnecessary safe call on a non-null receiver of type InputStream?
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:99:48 Unnecessary safe call on a non-null receiver of type InputStream?
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:122:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:159:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:180:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:200:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:237:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/NetworkController.kt:265:55 Type mismatch: inferred type is String? but String was expected
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:67:5 Parameter 'onSave' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:68:5 Parameter 'onReset' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:96:13 Variable 'textColor' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:97:13 Variable 'componentBg' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:98:13 Variable 'borderColor' is never used
+w: file:///C:/Drive/Projects/Controller/app/src/main/java/com/example/controller/SettingsScreen.kt:287:5 Parameter 'onBack' is never used
+e: file:///C:/Drive/P
+rojects/Controller/ap
+p/src/main/java/com/e
+xample/controller/Lay
+outEditorScreen.kt:15
+5:95 Type mismatch: 
+inferred type is () 
+-> Unit but Boolean 
+was expected
+e: file:///C:/Drive/P
+rojects/Controller/ap
+p/src/main/java/com/e
+xample/controller/Lay
+outEditorScreen.kt:15
+5:95 No value passed 
+for parameter 
+'onVibrate'
+e: file:///C:/Drive/P
+rojects/Controller/ap
+p/src/main/java/com/e
+xample/controller/Lay
+outEditorScreen.kt:15
+7:52 Type mismatch: 
+inferred type is () 
+-> Unit but Boolean 
+was expected
+e: file:///C:/Drive/P
+rojects/Controller/ap
+p/src/main/java/com/e
+xample/controller/Lay
+outEditorScreen.kt:15
+7:52 No value passed 
+for parameter 
+'onVibrate'
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/Drive/Projects/Controller/build/reports/problems/problems-report.html
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileDeb
+ugKotlin'.
+> A failure occurred 
+while executing org.j
+etbrains.kotlin.compi
+lerRunner.GradleCompi
+lerRunnerWithWorkers$
+GradleKotlinCompilerW
+orkAction
+   > Compilation 
+error. See log for 
+more details
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 13s
+25 actionable tasks: 1 executed, 24 up-to-date

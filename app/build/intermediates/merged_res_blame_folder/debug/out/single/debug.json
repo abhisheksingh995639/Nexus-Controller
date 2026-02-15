@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.controller.app-merged_res-4:/drawable_app_icon.png.flat",
+        "source": "com.example.controller.app-main-6:/drawable/app_icon.png"
+    },
+    {
+        "merged": "com.example.controller.app-merged_res-4:/drawable_logo.png.flat",
+        "source": "com.example.controller.app-main-6:/drawable/logo.png"
+    }
+]

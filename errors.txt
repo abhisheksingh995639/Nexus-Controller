@@ -1,0 +1,113 @@
+./gradlew : WARNING: A 
+restricted method in 
+java.lang.System has been called
+At line:1 char:1
++ ./gradlew 
+:app:compileDebugKotlin 2>&1 | 
+Out-File -Encoding ascii err ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (WARNING: A re  
+  st...has been called:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+WARNING: java.lang.System::load 
+has been called by net.rubygrape
+fruit.platform.internal.NativeLi
+braryLoader in an unnamed 
+module (file:/C:/Users/abhis/.gr
+adle/wrapper/dists/gradle-9.0-mi
+lestone-1-bin/3vdepk4s12bybhohyu
+vjcm1bd/gradle-9.0-milestone-1/l
+ib/native-platform-0.22-mileston
+e-28.jar)
+WARNING: Use --enable-native-acc
+ess=ALL-UNNAMED to avoid a 
+warning for callers in this 
+module
+WARNING: Restricted methods 
+will be blocked in a future 
+release unless native access is 
+enabled
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+e: file:///C:/Drive/Projects/Con
+troller/app/src/main/java/com/ex
+ample/controller/MainActivity.kt
+:917:38 This API is 
+experimental and is likely to 
+change in the future.
+e: file:///C:/Drive/Projects/Con
+troller/app/src/main/java/com/ex
+ample/controller/MainActivity.kt
+:917:70 This API is 
+experimental and is likely to 
+change in the future.
+e: file:///C:/Drive/Projects/Con
+troller/app/src/main/java/com/ex
+ample/controller/MainActivity.kt
+:1016:29 This API is 
+experimental and is likely to 
+change in the future.
+e: file:///C:/Drive/Projects/Con
+troller/app/src/main/java/com/ex
+ample/controller/MainActivity.kt
+:1016:49 This API is 
+experimental and is likely to 
+change in the future.
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/Drive/Projects/Controller/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugKotlin'.
+> A failure occurred while 
+executing org.jetbrains.kotlin.c
+ompilerRunner.GradleCompilerRunn
+erWithWorkers$GradleKotlinCompil
+erWorkAction
+   > Compilation error. See log 
+for more details
+
+* Try:
+> Run with --stacktrace option 
+to get the stack trace.
+> Run with --info or --debug 
+option to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at 
+https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+13 actionable tasks: 1 executed, 12 up-to-date

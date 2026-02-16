@@ -2,6 +2,7 @@
 
 Nexus Controller transforms your Android device into a high-performance, low-latency gamepad for your Windows PC. Whether you need an Xbox 360 controller for modern titles or a DualShock 4 for compatibility, Nexus Controller delivers a seamless experience over Wi-Fi or USB.
 
+![1769893125328](https://github.com/user-attachments/assets/0c261473-5349-4de1-acf9-022463bc57fe)
 
 ## 🚀 Features
 
@@ -90,4 +91,5 @@ The easiest way to launch the server is via the batch script, which automaticall
 ## 📜 License
 
 This project is open-source.
+
 
